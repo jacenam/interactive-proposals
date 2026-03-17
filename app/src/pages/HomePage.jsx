@@ -29,7 +29,7 @@ export default function HomePage() {
         <div className="max-w-[1584px] mx-auto px-4 w-full">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <img src="/images/logos/docfriends-logo-white.png" alt="Docfriends" className="h-8 mb-8 animate-fade-in-up" />
+              <img src={`${import.meta.env.BASE_URL}images/logos/docfriends-logo-white.png`} alt="Docfriends" className="h-8 mb-8 animate-fade-in-up" />
               <h1 className="text-4xl lg:text-6xl font-semibold text-white mb-6 leading-tight animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
                 맞춤 의료,{' '}
                 <span className="text-[#00C73C]">나만의 주치의</span>를{' '}

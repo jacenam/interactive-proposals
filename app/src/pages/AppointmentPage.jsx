@@ -95,7 +95,7 @@ export default function AppointmentPage() {
             {/* Doctalk Hub — Center */}
             <div className="group relative bg-gradient-to-br from-[#00C73C]/5 to-[#00C73C]/15 border-2 border-[#00C73C] p-8 text-center cursor-default transition-all duration-200 hover:shadow-[0_8px_32px_rgba(0,199,60,0.15)] hover:-translate-y-1">
               <div className="absolute top-0 left-0 w-full h-1 bg-[#00C73C]" />
-              <img src="/images/logos/doctalk-symbol-green.png" alt="Doctalk" className="h-10 mx-auto mb-3 opacity-80 group-hover:opacity-100 transition-opacity" />
+              <img src={`${import.meta.env.BASE_URL}images/logos/doctalk-symbol-green.png`} alt="Doctalk" className="h-10 mx-auto mb-3 opacity-80 group-hover:opacity-100 transition-opacity" />
               <h3 className="text-xl font-semibold text-[#00C73C] mb-1">Doctalk</h3>
               <p className="text-xs text-[#525252] mb-4">예약 허브</p>
               <div className="flex justify-center gap-2">

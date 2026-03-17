@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#161616] h-12">
       <div className="max-w-[1584px] mx-auto px-4 h-full flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 h-full">
-          <img src="/images/logos/docfriends-logo-white.png" alt="Docfriends" className="h-5" />
+          <img src={`${import.meta.env.BASE_URL}images/logos/docfriends-logo-white.png`} alt="Docfriends" className="h-5" />
         </Link>
 
         <div className="hidden lg:flex items-center h-full">

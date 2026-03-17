@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-[1584px] mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <img src="/images/logos/docfriends-logo-white.png" alt="Docfriends" className="h-6 mb-4" />
+            <img src={`${import.meta.env.BASE_URL}images/logos/docfriends-logo-white.png`} alt="Docfriends" className="h-6 mb-4" />
             <p className="text-sm leading-relaxed text-[#a8a8a8] max-w-md">
               나만의 주치의, 모든 환자에게 맞춤 의료를.
               디지털 발견에서 실제 진료까지, 데이터 기반 솔루션으로 의료인과 환자를 연결합니다.

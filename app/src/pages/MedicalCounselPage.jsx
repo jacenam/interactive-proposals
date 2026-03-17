@@ -48,11 +48,11 @@ export default function MedicalCounselPage() {
         <SectionTitle overline="제품 미리보기" title="AI 상담 인터페이스" center />
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-white overflow-hidden border border-[#e0e0e0]">
-            <img src="/images/screenshots/ai-counsel/AI-Chat-UI.png" alt="AI 채팅 UI" className="w-full" />
+            <img src={`${import.meta.env.BASE_URL}images/screenshots/ai-counsel/AI-Chat-UI.png`} alt="AI 채팅 UI" className="w-full" />
             <div className="p-4"><p className="text-sm text-[#525252]">AI 상담 채팅 인터페이스</p></div>
           </div>
           <div className="bg-white overflow-hidden border border-[#e0e0e0]">
-            <img src="/images/screenshots/ai-counsel/Appointment-Scheduler-after-AI-Chat-UI.png" alt="예약 스케줄러" className="w-full" />
+            <img src={`${import.meta.env.BASE_URL}images/screenshots/ai-counsel/Appointment-Scheduler-after-AI-Chat-UI.png`} alt="예약 스케줄러" className="w-full" />
             <div className="p-4"><p className="text-sm text-[#525252]">스마트 예약 스케줄러</p></div>
           </div>
         </div>
