@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/interactive-proposals/images/logos/doctalk-symbol-green.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>닥프렌즈 - 나만의 주치의, 모든 환자에게</title>
+    <meta name="description" content="디지털 발견에서 실제 진료까지, 데이터 기반 솔루션으로 의료인과 환자를 연결합니다." />
+    <!-- GitHub Pages SPA redirect handler -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
