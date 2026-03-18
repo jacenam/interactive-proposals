@@ -31,12 +31,12 @@ export default function HomePage() {
             <div>
               <img src={`${import.meta.env.BASE_URL}images/logos/docfriends-logo-white.png`} alt="Docfriends" className="h-8 mb-8 animate-fade-in-up" />
               <h1 className="text-4xl lg:text-6xl font-semibold text-white mb-6 leading-tight animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-                맞춤 의료,{' '}
-                <span className="text-[#00C73C]">나만의 주치의</span>를{' '}
-                모든 환자에게
+                환자와 의사,{' '}
+                <span className="text-[#00C73C]">주치의 관계</span>로의{' '}
+                연결
               </h1>
               <p className="text-lg text-[#a8a8a8] max-w-lg mb-10 leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                디지털 발견에서 실제 진료까지, 데이터 기반 솔루션으로 의료인과 환자를 연결합니다.
+                파편화된 의료 인프라를 연결하여, 환자와 의사를 1인 1주치의 관계로 연결하는 것을 목표합니다
               </p>
               <a
                 href="#services"

@@ -9,8 +9,8 @@ export default function Footer() {
           <div className="md:col-span-2">
             <img src={`${import.meta.env.BASE_URL}images/logos/docfriends-logo-white.png`} alt="Docfriends" className="h-6 mb-4" />
             <p className="text-sm leading-relaxed text-[#a8a8a8] max-w-md">
-              나만의 주치의, 모든 환자에게 맞춤 의료를.
-              디지털 발견에서 실제 진료까지, 데이터 기반 솔루션으로 의료인과 환자를 연결합니다.
+              환자와 의사, 주치의 관계로의 연결.
+              파편화된 의료 인프라를 연결하여, 환자와 의사를 1인 1주치의 관계로 연결하는 것을 목표합니다.
             </p>
           </div>
           <div>
